@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <Target Name="BuildTarget">
+    <Message Text="Build selected" Importance="high"/>
+  </Target>
+
 </Project>
