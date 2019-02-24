@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsDemoWithMSTestProj", "DevOpsDemoWithMSTestProj\DevOpsDemoWithMSTestProj.csproj", "{8EBECA18-3A15-4C48-A3DA-1B0DF6619BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsDemoWithMSTestProj", "DevOpsDemoWithMSTestProj\DevOpsDemoWithMSTestProj.csproj", "{8EBECA18-3A15-4C48-A3DA-1B0DF6619BD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{291FD808-D72A-446C-866C-47F3D1CEC42B} = {291FD808-D72A-446C-866C-47F3D1CEC42B}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BC289D89-A869-44FD-AE3C-AE159E3BCFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsDemoTest", "DevOpsDemoTest\DevOpsDemoTest.csproj", "{291FD808-D72A-446C-866C-47F3D1CEC42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsDemoTest", "DevOpsDemoTest\DevOpsDemoTest.csproj", "{291FD808-D72A-446C-866C-47F3D1CEC42B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
